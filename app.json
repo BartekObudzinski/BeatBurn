@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0333cc8a-4e94-40c4-aadc-c13447eef52c"
+      }
+    },
+    "owner": "holinice"
   }
 }
