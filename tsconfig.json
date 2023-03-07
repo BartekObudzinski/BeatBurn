@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths":{
+    "paths": {
+      "@App/*": ["src/App/*"],
       "@Components/*": ["src/Components/*"],
+      "@Navigation/*": ["src/Navigation/*"],
+      "@Redux/*": ["src/Redux/*"]
     }
   },
-  "extends": "expo/tsconfig.base",
+  "extends": "expo/tsconfig.base"
 }
