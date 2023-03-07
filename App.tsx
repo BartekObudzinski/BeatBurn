@@ -1,17 +1,12 @@
-import { Button } from '@Components/Atoms/Button';
-import { SafeAreaView, Text } from 'react-native';
+import { store } from '@App/store';
+import { RouteNavigator } from '@Navigation/Route';
+import React from 'react';
+import { Provider } from 'react-redux';
 
 export default function App() {
-
-
-
-  
   return (
-    <SafeAreaView >
-      <Text>There will be Cardio Activity App!</Text>
-      <Button/>
-    </SafeAreaView>
+    <Provider store={store}>
+      <RouteNavigator />
+    </Provider>
   );
 }
-
-
