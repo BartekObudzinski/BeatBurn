@@ -1,5 +1,5 @@
 import { store } from '@App/store';
-import { RouteNavigator } from '@Navigation/Route';
+import { RootStack } from '@Navigation/RootStack';
 import { registerRootComponent } from 'expo';
 import React from 'react';
 import { Provider } from 'react-redux';
@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 const App = () => {
   return (
     <Provider store={store}>
-      <RouteNavigator />
+      <RootStack />
     </Provider>
   );
 };
