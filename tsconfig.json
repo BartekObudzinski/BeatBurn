@@ -5,7 +5,8 @@
       "@App/*": ["src/App/*"],
       "@Components/*": ["src/Components/*"],
       "@Navigation/*": ["src/Navigation/*"],
-      "@Redux/*": ["src/Redux/*"]
+      "@Redux/*": ["src/Redux/*"],
+      "@Locales/*": ["src/Locales/*"]
     }
   },
   "extends": "expo/tsconfig.base"

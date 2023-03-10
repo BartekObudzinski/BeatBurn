@@ -11,6 +11,7 @@ module.exports = function (api) {
             '@Components': './src/Components',
             '@Navigation': './src/Navigation',
             '@Redux': './src/Redux',
+            '@Locales': './src/Locales',
           },
         },
       ],

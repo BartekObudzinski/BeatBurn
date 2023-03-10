@@ -1,4 +1,5 @@
 import { store } from '@App/store';
+import '@Locales/i18n';
 import { RootStack } from '@Navigation/RootStack';
 import { registerRootComponent } from 'expo';
 import React from 'react';
