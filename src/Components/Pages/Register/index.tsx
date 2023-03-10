@@ -1,13 +1,10 @@
 import { RootStackScreenProps } from '@Navigation/RootStack/types';
 import { useNavigation } from '@react-navigation/native';
-import React from 'react';
 import { Pressable, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useDispatch } from 'react-redux';
 
-export const Login = () => {
-  const { navigate } = useNavigation<RootStackScreenProps<'SignIn'>>();
-  const dispatch = useDispatch();
+export const Register = () => {
+  const { navigate } = useNavigation<RootStackScreenProps<'SignUp'>>();
 
   return (
     <SafeAreaView
@@ -15,9 +12,9 @@ export const Login = () => {
       <Pressable
         style={{ backgroundColor: 'violet', padding: 10, borderRadius: 10 }}
         onPress={() => {
-          navigate('SignUp');
+          navigate('SignIn');
         }}>
-        <Text>Zaloguj</Text>
+        <Text>Zarejestruj</Text>
       </Pressable>
     </SafeAreaView>
   );
