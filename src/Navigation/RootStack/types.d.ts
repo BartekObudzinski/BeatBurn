@@ -1,10 +1,10 @@
+import { AuthStackParamList } from '@Navigation/AuthStack/types';
 import { BottomTabParamList } from '@Navigation/BottomTab/types';
 import { NavigatorScreenParams } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 export type RootStackParamList = {
-  SignIn: undefined;
-  SignUp: undefined;
+  AuthStack: NavigatorScreenParams<AuthStackParamList>;
   BottomTab: NavigatorScreenParams<BottomTabParamList>;
 };
 

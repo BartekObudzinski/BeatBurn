@@ -1,5 +1,5 @@
-import { Login } from '@Components/Pages/Login';
-import { Register } from '@Components/Pages/Register';
+import { AuthStack } from '@Navigation/AuthStack';
+import { AUTH_STACK } from '@Navigation/AuthStack/consts';
 import { BottomTab } from '@Navigation/BottomTab';
 import { BOTTOM_TAB } from '@Navigation/BottomTab/consts';
 import { Stack } from '@Navigation/RootStack/consts';
@@ -18,8 +18,7 @@ export const RootStack = () => {
           </Stack.Group>
         ) : (
           <Stack.Group>
-            <Stack.Screen name="SignIn" component={Login} />
-            <Stack.Screen name="SignUp" component={Register} />
+            <Stack.Screen name={AUTH_STACK} component={AuthStack} />
           </Stack.Group>
         )}
       </Stack.Navigator>
