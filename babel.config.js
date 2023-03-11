@@ -12,9 +12,11 @@ module.exports = function (api) {
             '@Navigation': './src/Navigation',
             '@Redux': './src/Redux',
             '@Locales': './src/Locales',
+            '@Assets': './src/Assets',
           },
         },
       ],
+      ['nativewind/babel'],
     ],
   };
 };
