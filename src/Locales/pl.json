@@ -1,3 +1,4 @@
 {
-  "hello": "Cześć"
+  "screen_welcome_button_sign_in_label": "Logowanie",
+  "screen_welcome_button_sign_up_label": "Rejestracja"
 }
