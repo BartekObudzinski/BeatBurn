@@ -4,7 +4,7 @@ import { Pressable, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export const Register = () => {
-  const { navigate } = useNavigation<RootStackScreenProps<'SignUp'>>();
+  const { navigate } = useNavigation<RootStackScreenProps<'AuthStack'>>();
 
   return (
     <SafeAreaView
@@ -12,7 +12,7 @@ export const Register = () => {
       <Pressable
         style={{ backgroundColor: 'violet', padding: 10, borderRadius: 10 }}
         onPress={() => {
-          navigate('SignIn');
+          navigate('AuthStack', { screen: 'SignIn' });
         }}>
         <Text>Zarejestruj</Text>
       </Pressable>
