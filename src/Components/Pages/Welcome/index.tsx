@@ -13,9 +13,9 @@ export const Welcome = () => {
 
   return (
     <View className="flex-1 justify-end">
-      <View className="h-full"></View>
-      <View className="p-4 pb-6  items-center bg-dark-green rounded-t-lg">
-        <View className="w-full">
+      <View className="h-full "></View>
+      <View className="p-4 h-1/3  items-center bg-tra ">
+        <View className="w-full mt-4">
           <Button onPress={handleSignUp}>
             {t('screen_welcome_button_sign_up_label')}
           </Button>
@@ -23,12 +23,12 @@ export const Welcome = () => {
             {t('screen_welcome_button_sign_in_label')}
           </Button>
         </View>
-        <View className="flex-row justify-center items-center mt-2 mb-2">
-          <View className="h-0.5 w-24 bg-white rounded" />
-          <Text className="ml-2 mr-2 text-white">
+        <View className="flex-row justify-center items-center mt-5 mb-5">
+          <View className="h-0.5 w-24 bg-black rounded opacity-40" />
+          <Text className="ml-2 mr-2 text-black">
             {t('screen_welcome_button_sign_in_extension_label')}
           </Text>
-          <View className="h-0.5 w-24 bg-white rounded" />
+          <View className="h-0.5 w-24 bg-black rounded opacity-40" />
         </View>
         <View className="flex-row">
           <Circle className="mr-2 ml-2">

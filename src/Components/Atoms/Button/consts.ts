@@ -2,7 +2,7 @@ import { ButtonVariants } from '@Components/Atoms/Button/types';
 
 export const buttonVariants: ButtonVariants = {
   default: 'p-3 rounded-md items-center',
-  primary: 'bg-white',
+  primary: 'bg-mint',
   secondary: 'bg-black',
   disabled: 'bg-gray-300',
 };

@@ -1,4 +1,10 @@
 {
+  "screen_login_button_label": "Zaloguj",
+  "screen_login_continue_with_label": "Zaloguj się przez...",
+  "screen_login_email_placeholder_label": "Email",
+  "screen_login_header_label": "Logowanie",
+  "screen_login_password_placeholder_label": "Hasło",
+  "screen_login_sign_up_label": "Nie masz konta? Zarejestruj się",
   "screen_welcome_button_sign_in_extension_label": "zaloguj się przez",
   "screen_welcome_button_sign_in_label": "Logowanie",
   "screen_welcome_button_sign_up_label": "Rejestracja"

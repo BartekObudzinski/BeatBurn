@@ -1,4 +1,9 @@
 {
+  "screen_login_button_label": "Login",
+  "screen_login_continue_with_label": "Or, login with...",
+  "screen_login_email_placeholder_label": "Email",
+  "screen_login_password_placeholder_label": "Password",
+  "screen_login_sign_up_label": "New in App? Register",
   "screen_welcome_button_sign_in_extension_label": "or continue with",
   "screen_welcome_button_sign_in_label": "Login",
   "screen_welcome_button_sign_up_label": "Signup"

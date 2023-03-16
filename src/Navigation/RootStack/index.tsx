@@ -3,15 +3,26 @@ import { AUTH_STACK } from '@Navigation/AuthStack/consts';
 import { BottomTab } from '@Navigation/BottomTab';
 import { BOTTOM_TAB } from '@Navigation/BottomTab/consts';
 import { Stack } from '@Navigation/RootStack/consts';
-import { NavigationContainer } from '@react-navigation/native';
+import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
 import { selectIsLoggedIn } from '@Redux/Slices/auth-slice';
 import { useSelector } from 'react-redux';
 
 export const RootStack = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
   return (
-    <NavigationContainer>
-      <Stack.Navigator screenOptions={{ headerShown: false }}>
+    <NavigationContainer
+      theme={{
+        ...DefaultTheme,
+        colors: {
+          ...DefaultTheme.colors,
+          background: 'white',
+        },
+      }}>
+      <Stack.Navigator
+        screenOptions={{
+          headerShown: false,
+          contentStyle: { flex: 1, backgroundColor: 'red' },
+        }}>
         {isLoggedIn ? (
           <Stack.Group>
             <Stack.Screen name={BOTTOM_TAB} component={BottomTab} />

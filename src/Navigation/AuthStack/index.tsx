@@ -5,7 +5,10 @@ import { Stack } from '@Navigation/AuthStack/consts';
 
 export const AuthStack = () => {
   return (
-    <Stack.Navigator screenOptions={{ headerShown: false }}>
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}>
       <Stack.Screen name="Welcome" component={Welcome} />
       <Stack.Screen name="SignIn" component={Login} />
       <Stack.Screen name="SignUp" component={Register} />
