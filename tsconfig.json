@@ -8,7 +8,8 @@
       "@Redux/*": ["src/Redux/*"],
       "@Locales/*": ["src/Locales/*"],
       "@Assets/*": ["src/Assets/*"],
-      "@Hooks/*": ["src/Hooks/*"]
+      "@Hooks/*": ["src/Hooks/*"],
+      "@Utils/*": ["src/Utils/*"]
     }
   },
   "extends": "expo/tsconfig.base"

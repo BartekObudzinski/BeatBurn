@@ -14,6 +14,7 @@ module.exports = function (api) {
             '@Locales': './src/Locales',
             '@Assets': './src/Assets',
             '@Hooks': './src/Hooks',
+            '@Utils': './src/Utils',
           },
         },
       ],
