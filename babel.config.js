@@ -13,6 +13,7 @@ module.exports = function (api) {
             '@Redux': './src/Redux',
             '@Locales': './src/Locales',
             '@Assets': './src/Assets',
+            '@Hooks': './src/Hooks',
           },
         },
       ],
